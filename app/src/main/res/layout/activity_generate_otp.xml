@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="20dp"
+    android:paddingEnd="15dp"
+    tools:context=".GenerateOtpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verificationCode"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/para"
+        android:textSize="15sp"
+        android:textColor="#808080"/>
+
+    <TextView
+        android:id="@+id/cameMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/numOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/hint1"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/numTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/hint2"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/numThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/hint3"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/numFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:hint="@string/hint4"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/verifyBtn"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+</LinearLayout>

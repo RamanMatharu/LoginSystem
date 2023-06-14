@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Login System</string>
+    <string name="msg">Login System</string>
+    <string name="title">LOGIN</string>
+    <string name="email">Username/Email</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="loginBtn">SIGN IN</string>
+    <string name="noAccount">Don\'t have an Account?</string>
+    <string name="register">Register</string>
+    <string name="head">Reset Password</string>
+    <string name="desc">Enter the email associated with your account and we\'ll send you otp to reset your password.</string>
+    <string name="email_hint">Email address</string>
+    <string name="generateOtp">Generate OTP</string>
+    <string name="verficationCode">Verification code</string>
+    <string name="verificationCode">Verification code</string>
+    <string name="para">We have sent the code verification to your Email Address</string>
+    <string name="hint1">*</string>
+    <string name="hint2">*</string>
+    <string name="hint3">*</string>
+    <string name="hint4">*</string>
+    <string name="verifyBtn">Verify</string>
+    <string name="newPassword">Create new Password</string>
+    <string name="passwordLen">Must be at least 8 characters.</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="createAcc">Create your Account</string>
+    <string name="member">Already a member?</string>
+    <string name="signIn">Sign In</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="signUp">Sign Up</string>
+</resources>
