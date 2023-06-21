@@ -20,6 +20,8 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        Toast.makeText(this,"on create",Toast.LENGTH_LONG).show()
+
         forgotPswd = findViewById(R.id.forgotPswd)
         email = findViewById(R.id.email)
         pswd = findViewById(R.id.password)
@@ -49,4 +51,35 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        Toast.makeText(this,"on start",Toast.LENGTH_LONG).show()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Toast.makeText(this,"on resume",Toast.LENGTH_LONG).show()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Toast.makeText(this,"on pause",Toast.LENGTH_LONG).show()
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Toast.makeText(this,"on stop",Toast.LENGTH_LONG).show()
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Toast.makeText(this,"on restart",Toast.LENGTH_LONG).show()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Toast.makeText(this,"on start",Toast.LENGTH_LONG).show()
+    }
 }
+
